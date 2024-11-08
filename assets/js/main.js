@@ -1,7 +1,7 @@
 window.addEventListener('click', function() {
     const audio = document.getElementById('music');
     audio.play();
-    audio.volume = 0.2;
+    audio.volume = 0.5;
 })
 
 function switchTheme() {
@@ -14,7 +14,7 @@ function switchTheme() {
     const audio = document.getElementById('music');
     audio.src = `assets/musics/${music}`;
     audio.play();
-    audio.volume = 0.2;
+    audio.volume = 0.5;
 }
 
 document.getElementById('switch_theme_button').addEventListener('click', switchTheme);
